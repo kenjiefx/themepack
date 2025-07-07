@@ -1,0 +1,20 @@
+{
+    "name": "kenjiefx/themepack",
+    "description": "Theme extension for scratch-php",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Kenjiefx\\Themepack\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kenjie Terrado",
+            "email": "terradoflex@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "kenjiefx/scratch-php": "dev-main"
+    }
+}
